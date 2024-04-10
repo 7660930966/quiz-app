@@ -1,0 +1,56 @@
+/* style.css */
+/* Reset default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Set box-sizing to border-box to include */
+}
+
+/* Center the login form vertically and horizontally */
+.container{
+    display: flex; /*use flexbox for layout */
+    justify-content : center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login form */
+.login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Style the heading */
+h2 {
+    margin-bottom: 20px; /* Add margin below the heading */
+    color: #333; /* Set text colour*/
+}
+
+/* Style the input fields */
+.input-field {
+    width: 100%;  /* Set the width of the input fields */
+    margin-bottom: 10px; /* Add margin below the input fields */
+    padding: 10px; /* Add padding to the input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+/* Style the login button */
+.btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+.btn:hover {
+    background-color: #0056b3;
+}
